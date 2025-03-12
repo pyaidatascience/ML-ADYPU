@@ -1,0 +1,15 @@
+
+Unit One: Data Cleaning and Pre-processing
+1. Handling Missing Data: In any dataset, missing data can lead to biased or misleading analysis. Handling missing data involves strategies such as:
+Removal: Eliminating rows or columns with missing values.
+Imputation: Filling in missing values using techniques like mean, median, or mode substitution.
+2. Data Transformation: Transforming data is crucial to ensure consistency and prepare it for analysis.
+Removing Duplicates: Identifying and removing duplicate records to maintain data integrity.
+Transforming Data Using a Function or Mapping: Applying functions or mappings to transform data. For example, converting temperature units from Fahrenheit to Celsius using a specific formula.
+Replacing Values: Substituting certain values with others. For example, replacing null values with a predefined constant.
+3. Detecting and Filtering Outliers: Outliers can significantly skew analysis and model performance. Detecting and filtering outliers involves:
+Statistical Techniques: Using measures like Z-scores or the Interquartile Range (IQR) to identify outliers.
+Visualization: Plotting data using box plots or scatter plots to visually detect anomalies.
+4. String Manipulation: String manipulation is essential for handling textual data in pandas.
+Vectorized String Functions in pandas: Utilizing pandas’ string functions to perform operations like splitting, replacing, and extracting text from strings efficiently. This includes functions like str.split(), str.replace(), and str.extract().
+
