@@ -1,0 +1,59 @@
+To understand the key concepts of Exploratory Data Analysis (EDA):
+
+Exploratory Data Analysis (EDA)
+EDA Approach: EDA is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. It involves looking at the data's structure, cleaning it, transforming variables, and performing initial checks and visualizations.
+
+Defining Descriptive Statistics for Numeric Data
+Measuring Central Tendency: Central tendency measures where the center of a data set lies. Common measures include:
+
+Mean: The average value.
+
+Median: The middle value when data is sorted.
+
+Mode: The most frequent value.
+
+Measuring Variance and Range:
+
+Variance: Indicates how much the data varies from the mean.
+
+Range: The difference between the highest and lowest values in the dataset.
+
+Working with Percentiles: Percentiles indicate the relative standing of a value within a dataset, dividing data into 100 equal parts. For example, the 25th percentile is the value below which 25% of the data falls.
+
+Defining Measures of Normality: Measures like skewness and kurtosis help determine how closely data follows a normal distribution.
+
+Counting for Categorical Data
+Understanding Frequencies: Counting how often each category occurs within the data.
+
+Creating Contingency Tables: Tables that show the frequency distribution of variables and help identify relationships between categorical variables.
+
+Creating Applied Visualization for EDA
+Inspecting Boxplots: Boxplots show the distribution of data based on a five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum. They highlight outliers and the spread of data.
+
+Performing t-tests after Boxplots: t-tests are used to compare the means of two groups to see if they are statistically different from each other.
+
+Observing Parallel Coordinates: Parallel coordinates plots visualize multidimensional data, where each line represents an observation and each axis represents a variable.
+
+Graphing Distributions: Visualizing data distributions using histograms, density plots, and other methods.
+
+Plotting Scatterplots: Scatterplots help visualize the relationship between two numerical variables.
+
+Using Covariance and Correlation
+Covariance: Measures the direction of the linear relationship between variables. Positive covariance indicates variables move together, while negative covariance indicates they move inversely.
+
+Correlation: Measures both the strength and direction of the linear relationship between variables, standardized between -1 and 1.
+
+Using Nonparametric Correlation: Nonparametric methods like Spearman's rank correlation measure relationships without assuming a linear relationship.
+
+Considering Chi-Square for Tables: Chi-square tests help determine if there is a significant association between categorical variables in contingency tables.
+
+Using the Normal Distribution
+Creating a Z-Score Standardization: Standardizing data converts values to z-scores, which indicates how many standard deviations a value is from the mean.
+
+Transforming Other Notable Distributions: Transforming data to fit a desired distribution, such as log or exponential transformations, to better meet assumptions of statistical tests.
+
+Detecting Outliers
+Detecting Outliers: Identifying data points significantly different from the rest using techniques like Z-scores or IQR (Interquartile Range) method.
+
+Dimensionality Reduction
+Dimensionality Reduction: Reducing the number of variables under consideration using techniques like Principal Component Analysis (PCA) to simplify models without sacrificing too much information.
